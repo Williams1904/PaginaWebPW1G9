@@ -1,0 +1,65 @@
+.tit h1 {
+    text-align: center;
+    color: #4b9b56 ;
+    font-size: 35px;
+       
+}
+
+.CR7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.CR7 .left {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.CR7 .left h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.CR7 .left form {
+    margin-bottom: 40px;
+}
+
+.CR7 .left label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.CR7 .left input[type="text"],
+.CR7 .left input[type="email"],
+.CR7 .left textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.CR7 .left select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.CR7 .left input[type="submit"] {
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff;
+}
+
+.CR7 .right {
+    flex: 1;
+}
+
+.CR7 .right img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+

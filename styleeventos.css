@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4f5e6;
+}
+
+header {
+    background-color: #333;
+    color: #1f0202;
+    padding: 0px;
+    text-align: center;
+}
+
+.tit h1 {
+    text-align: center;
+    color: #4b9b56 ;
+    font-size: 35px;
+       
+}
+
+main {
+    padding: 20px;
+}
+
+.eventos {
+    margin-bottom: 30px;
+    display:inline-block;
+    margin-right: 20px;
+    text-align: center;
+    margin-left: 17%;
+    
+}
+
+.eventos h2 {
+    margin-bottom: 10px;
+    
+}
+
+.evento {
+    margin-bottom: 20px;
+   
+}
+
+.evento img {
+    width: 100%;
+    max-width: 300px;
+    align-items: center;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: inline-block;
+    
+}
+
+.evento img:hover {
+    transform: scale(1.1);
+    text-align: center;
+    
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
